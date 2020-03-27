@@ -2,8 +2,8 @@ clc;clear;close;
 
 // FOR ANY SYSTEM OF EQUATIONS 
 
-A=[2,-3,0;4,-5,1;2,-1,-3];        // COLUMN VECTOR
-B=[3;7;5];                       // LOAD VECTOR
+A=input("enter the COLUMN VECTOR(A)")        // COLUMN VECTOR
+B=input("enter the LOAD VECTOR(B)")         // LOAD VECTOR
 n=length(B);
 
 aug=[A,B]; // ARGUMENTED MATRIX
