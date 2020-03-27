@@ -2,7 +2,7 @@ clear;close;clc;
 
 // FOR ANY ORDER SQUARE MATRIX
 
-A=[2,3,1;4,7,5;1,-2,2];
+A=input("enter the matrix [ANY ORDER SQUARE MATRIX]")
 n=length(A(1,:));
 
 for l=1:n
