@@ -2,7 +2,7 @@ clc;clear;close
 
 // FOR ANY ORDER [NxM] MATRIX
  
-A=input("enter any order matrix")
+A=input("enter the matrix [ANY ORDER [NxM] MATRIX]")
 disp(A);
 [r,c]=size(A);
 for z=1:(c-1)
