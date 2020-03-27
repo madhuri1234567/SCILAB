@@ -1,8 +1,9 @@
 clc;clear;close 
 
+// FOR ANY SYSTEM AX=B & FOR ANY NO. OF EXPERIMENTS
+
 A=input("enter the matrix")  
 disp(A,'A='); 
-[r,c]=size(A)
 
 Y=input("enter the column matrix") 
 disp(Y,'Y='); 
