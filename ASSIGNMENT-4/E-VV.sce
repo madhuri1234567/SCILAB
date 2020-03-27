@@ -5,7 +5,7 @@ clc;clear;close
 A=input("enter the matrix [ORDER [3x3]]")
 
 X=poly(0,'X');
-X=X; 
+X=X;  
 
 charmat=A-X*eye(3,3); 
 disp(charmat,'the characteristic matrix is');
