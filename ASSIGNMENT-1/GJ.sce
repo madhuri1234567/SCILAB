@@ -2,7 +2,7 @@ clc;clear;close;
 
 // FOR ANY ORDER SQUARE MATRIX
 
-A=[2,-1,0;-1,2,-1;0,-1,2];
+A=input("enter the matrix [ANY ORDER SQUARE MATRIX]")
 n=length(A(1,:));
 aug=[A,eye(n,n)]   // matrix A & identity matrix
 
